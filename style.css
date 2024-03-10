@@ -1,0 +1,18 @@
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows images to wrap on smaller screens */
+  }
+  
+  .image-container img {
+    width: 50%; /* Adjust width as needed for side-by-side display */
+    object-fit: cover; /* Ensures image fills container */
+  }
+  
+  /* Media queries for additional adjustments on smaller screens (optional) */
+  @media only screen and (max-width: 768px) {
+    .image-container img {
+      width: 100%; /* Display each image full width on mobiles */
+    }
+  }
+  
